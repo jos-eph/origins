@@ -4,10 +4,10 @@ Origins is a python3 script that processes Wiktionary dictionary pages for Chine
 
 ## Overview
 ### Quick Start
-1) Take note of the included `pageDict.json` or generate a fresh one by running `parseWiki.py` on a Wiktionary dump
+1) `sudo pip3 install wikitextparser`
+2) Take note of the included `pageDict.json` or generate a fresh one by running `parseWiki.py` on a Wiktionary dump
    file as described below.
-2) `sudo pip3 install wikitextparser`
-2) `./pullRelationships.py pageDict.json`
+3) `./pullRelationships.py pageDict.json`
 
 A `pageDict.json` is included here, but if you want to generate a fresh one, run `./parseWiki.py` after step 1)
 on a Wiktionary articles dump  file as described below.
