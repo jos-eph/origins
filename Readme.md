@@ -9,9 +9,6 @@ Origins is a python3 script that processes Wiktionary dictionary pages for Chine
    file as described below.
 3) `./pullRelationships.py pageDict.json`
 
-A `pageDict.json` is included here, but if you want to generate a fresh one, run `./parseWiki.py` after step 1)
-on a Wiktionary articles dump  file as described below.
-
 ### What This Is And Why I Wrote It
 Chinese characters are a written "code" with graphical clues as to their meaning. I am a language hobbyist and started
 learning Mandarin on Duolingo, but found it difficult to read because of the sheer number of written symbols.
