@@ -103,7 +103,7 @@ Origins is written in Python 3.
 Origins depends on `wikitextparser` 0.47 or higher, a regular expression-based parser of Wikimedia templates. 
 
 ## Contact
-To contact me, email ![](/emailnoise.png) (dydx.org domain name, username joseph).
+To contact me, email ![dydx.org domain name, username joseph](/emailnoise.png).
 
 ## Legal
 ### License and Disclaimer of Warranty
