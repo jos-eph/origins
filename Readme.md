@@ -11,12 +11,6 @@ Origins is a python3 script that processes Wiktionary dictionary pages for Chine
 
 Note that `pullRelationships.py` generates information about overlapping categories, such as `hasComponent` and `hasSemanticComponent` (a semantic component is a subtype of a component). This is intentional. Information on Wiktionary is community-inputted and listing all of this information can serve as a partial check on completeness.
 
-### What This Is And Why I Wrote It
-Chinese characters are a written "code" with graphical clues as to their meaning. I am a language hobbyist and started
-learning Mandarin on Duolingo, but found it difficult to read because of the sheer number of written symbols.
-
-So, I decided to work on this project, with the ultimate aim of deriving my own study aid from Wiktionary.
-
 ### Current State Of The Program
 At present, the program processes a Wiktionary dump file into a list of relationships asserted by 5 key Wiktionary templates.
 You can see sample output connecting two characters below. The first is the traditional character for "love"; the 
@@ -38,6 +32,12 @@ the meaning of the character for the word "love".
 'isSemanticComponentOf': {'愛'},
 'translation': {'heart'},
 'type': {'same simplified and traditional'}}
+
+### Why I Wrote It
+Chinese characters are a written "code" with graphical clues as to their meaning. I am a language hobbyist and started
+learning Mandarin on Duolingo, but found it difficult to read because of the sheer number of written symbols.
+
+So, I decided to work on this project, with the ultimate aim of deriving my own study aid from Wiktionary.
 
 ### Future Directions
 My ultimate goal is to eventually have this program analyze the resulting relationships to produce useful,
