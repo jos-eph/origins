@@ -31,7 +31,7 @@ the meaning of the character for the word "love".
 'translation': {'heart'},
 'type': {'same simplified and traditional'}}
 
-Note that `pullRelationships.py` generates information about overlapping categories, such as `hasComponent` and `hasSemanticComponent` (a semantic component is a subtype of a component). This is intentional. Information on Wiktionary is community-inputted and listing all of this information can serve as a partial check on completeness.
+Note that `pullRelationships.py` generates information about overlapping categories, such as `hasComponent` and `hasSemanticComponent` (a semantic component is a subtype of a component). This is intentional. Information on Wiktionary is community-inputted and listing like this can serve as a partial check on completeness.
 
 ### Why I Wrote It
 Chinese characters are a written "code" with graphical clues as to their meaning. I am a language hobbyist and started
