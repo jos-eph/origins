@@ -9,6 +9,8 @@ Origins is a python3 script that processes Wiktionary dictionary pages for Chine
    file as described below.
 3) `./pullRelationships.py pageDict.json`
 
+For best results, read the resulting `relationships.json` file after program execution has finished.
+
 ### Current State Of The Program
 At present, the program processes a Wiktionary dump file into a list of relationships asserted by 5 key Wiktionary templates.
 You can see sample output connecting two characters below. The first is the traditional character for "love"; the 
@@ -31,7 +33,7 @@ the meaning of the character for the word "love".
 'translation': {'heart'},
 'type': {'same simplified and traditional'}}
 
-Note that `pullRelationships.py` generates information about overlapping categories, such as `hasComponent` and `hasSemanticComponent` (a semantic component is a subtype of a component). This is intentional. Information on Wiktionary is community-inputted and listing like this can serve as a partial check on completeness.
+Note that `pullRelationships.py` is a representation of the information as asserted in the templates, so some information may overlap.
 
 ### Why I Wrote It
 Chinese characters are a written "code" with graphical clues as to their meaning. I am a language hobbyist and started
